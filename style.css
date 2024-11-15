@@ -127,7 +127,7 @@ body{
 }
 .info-container{
     display: flex;
-    gap: 0px;
+    gap: 10px;
     justify-content:center;
     align-items: center;
     width: 55%;
@@ -141,7 +141,7 @@ body{
     align-items: center;
     width: 100%;
     text-align: center;
-    gap: 10px;
+    gap: 0px;
     font-size: 18px;
     color: #646363;
     text-wrap:wrap;
@@ -150,18 +150,83 @@ body{
 /*quote start*/
 .quote{
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    padding: 150px ;
 
+
+
+}
+
+.quote-container{
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1f2937;
+
+}
+.quote-author{
+    font-size: 18px;
+    font-weight: 900;
+    align-self: flex-end;
 }
 
 /*singup start*/
 .signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+
+}
+
+.signup-box{
+    width: 950px;
+    height: 125px;
+    background-color: #3882f6;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
 
 }
 
 
+
+
+
+
+.signup-text-title{
+    
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.signup-subtext{   
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.button-bot{
+    border:2px solid #f9faf8;
+    
+
+}
 /*footer start*/
 .footer{
     background: #1f2937;
     height: 50px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
